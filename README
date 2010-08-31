@@ -1,2 +1,30 @@
 LEARNING RAILS 3
 
+Memo on How to Clone play with GITHUB
+
+
+Global setup:
+ Download and install Git
+   git config --global user.name "Ganesan"
+   git config --global user.email minigane@gmail.com
+
+ Next steps:
+   mkdir test
+   cd test
+   git init
+   touch README
+   git add README
+   git commit -m 'first commit'
+   git remote add origin git@github.com:ganesan/test.git
+   git push origin master
+Existing Git Repo?
+   cd existing_git_repo
+   git remote add origin git@github.com:ganesan/test.git
+   git push origin master
+
+   Importing a Subversion Repo?
+    Click here
+   When you're done:
+     Continue
+
+
